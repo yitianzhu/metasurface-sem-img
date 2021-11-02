@@ -4,7 +4,16 @@
 This mini-program will take in an SEM image and measure the dimensions of circular metaatoms. 
 It uses Canny edge detection, recursion, and loops to process each metaatom feature pixel by pixel. 
 
-## How to use 
+## Program Workflow 
+1) Given an original image, the program first uses Canny edge detection to find the edges
+//INSERT ORIGINAL PLUS CANNY
+2) The program then identifies individual metaatoms using the black and white edge image. 
+3) For each metaatom, the program will measure area, average diameter, roundness (where a perfect circle is 0), etc. This information will be displayed on an image, as shown below
+// INSERT IMAGE OF DIAMETER AND ROUNDNESS DATA
+4) The program will classify the metaatoms by size. Each size category will be represented visually by a single color. The number of metaatoms in each size category will be reflected in the bar graph.
+// INSERT IMAGE OF BAR GRAPH 
+
+## How to use the program 
 
 ### Part 1: Downloads
 Download the following into one folder:
@@ -17,10 +26,11 @@ Download the following into one folder:
 
 ### Part 2: Manually finding a threshold 
 You will use the Canny_threshold_finder.py program for this part. Open this program in your Python console. <br/>
-1) In the first row, type the name of your image file. In the second row, type out a starting number (ideally 100). 
+1) Fill out the following information at the beginning of the program. 
 ```markdown
-# For the user to fill out 
+# This is the name of your image file 
 img_filename = 'sample03tif.tif' 
+# This is a starting test value. 
 threshold=100
 ```
 2) Run the Canny_threshold_finder.py program. An image with the detected edges (in white) should appear. 
@@ -36,9 +46,15 @@ threshold=100
 You will use the _ program for this part. Open this program in your Python console. 
 1) In the top portion of the program, fill out the following information 
 ``` markdown
-scaling = 1000 # This number should be printed in the black band at the bottom of the SEM image. 
-unit = 'nanometer' # This unit should be printed in the black band at the bottom of the SEM image
-threshold=110 #This number is the same optimal threshold you found in Part 2. 
-img_name = 'sample01tif.tif' # This is the file name 
-num_sizes = 10 # The program will classify metaatoms by size. This is the number of categories you would like to see. 
+# This number should be printed in the black band at the bottom of the SEM image. 
+scaling = 1000 
+# This unit should be printed in the black band at the bottom of the SEM image
+unit = 'nanometer' 
+# This number is the same optimal threshold you found in Part 2. 
+threshold=110 
+# This is the file name 
+img_name = 'sample01tif.tif' 
+# The program will classify metaatoms by size. This is the number of categories you would like to see. 
+num_sizes = 10 
 ```
+2) Run the program. 
