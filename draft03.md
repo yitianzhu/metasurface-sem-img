@@ -2,7 +2,7 @@
 ## Version 1.0
 
 This mini-program will take in an SEM image and measure the dimensions of circular metaatoms. 
-It uses Canny edge detection, recursion, and loops to process each metaatom feature pixel by pixel. 
+It uses Canny edge detection, recursion, and loops to process each metaatom feature pixel by pixel. <br/>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-colorscale-c.PNG" width=50% height=50%> 
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-bar-graph-c.PNG" width=50% height=50%>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-diameter-roundness.PNG" width=50% height=50%> 
