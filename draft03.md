@@ -8,14 +8,14 @@ It uses Canny edge detection, recursion, and loops to process each metaatom feat
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-diameter-roundness.PNG" width=50% height=50%> 
 
 ## Program Workflow 
-1) Given an original image, the program first uses Canny edge detection to find the edges
+1) Given an original image, the program first uses Canny edge detection to find the edges <br/>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/sample02jpg.jpg" width=50% height=50%>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-80-80.PNG" width=50% height=50%>
 2) The program then identifies individual metaatoms using the black and white edge image. 
-3) For each metaatom, the program will measure area, average diameter, roundness (where a perfect circle is 0), etc. This information will be displayed on an image, as shown below
+3) For each metaatom, the program will measure area, average diameter, roundness (where a perfect circle is 0), etc. This information will be displayed on an image, as shown below <br/>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-diameter-roundness.PNG" width=50% height=50%>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-colorscale.PNG" width=50% height=50%>
-4) The program will classify the metaatoms by size. Each size category will be represented visually by a single color. The number of metaatoms in each size category will be reflected in the bar graph.
+4) The program will classify the metaatoms by size. Each size category will be represented visually by a single color. The number of metaatoms in each size category will be reflected in the bar graph. <br/>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-bar-graph.PNG" width=50% height=50%>
 
 ## How to use the program 
@@ -36,12 +36,12 @@ img_filename = 'sample03tif.tif'
 threshold=100
 ```
 2) Run the Canny_threshold_finder.py program. An image with the detected edges (in white) should appear. 
-* If the image produces clear circles, the threshold number you chose was optimal. 
-<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-80-80.PNG" width=50% height=50%>
-* If the image has too much noise, increase the threshold number. 
-<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-0-0.PNG" width=50% height=50%>
-* If the circles are incomplete, decrease the threshold number. 
-<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-150-150.PNG" width=50% height=50%>
+* If the image produces clear circles, the threshold number you chose was optimal. <br/>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-80-80.PNG" width=50% height=50%> <br/>
+* If the image has too much noise, increase the threshold number. <br/>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-0-0.PNG" width=50% height=50%> <br/>
+* If the circles are incomplete, decrease the threshold number. <br/>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-150-150.PNG" width=50% height=50%> <br/>
 3) Continue changing the threshold and re-running the program until the program produces clear circles. 
 
 ### Part 3: Using the program 
