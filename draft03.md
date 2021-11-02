@@ -54,4 +54,4 @@ img_name = 'sample01tif.tif'
 # The program will classify metaatoms by size. This is the number of categories you would like to see. 
 num_sizes = 10 
 ```
-2) Run the program. 
+2) Run the program. It will display all the images with the relevant data. 
