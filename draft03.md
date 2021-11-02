@@ -21,9 +21,6 @@ Download the following into one folder:
 * Metasurface-Img-Processing_Version01.py 
 * All the images you would like to process
 
-/// INSERT SCREENSHOT HERE
-
-
 ### Part 2: Manually finding a threshold 
 You will use the Canny_threshold_finder.py program for this part. Open this program in your Python console. <br/>
 1) Fill out the following information at the beginning of the program. 
