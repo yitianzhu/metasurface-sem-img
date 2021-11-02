@@ -6,9 +6,19 @@ It uses Canny edge detection, recursion, and loops to process each metaatom feat
 
 ## How to use 
 
-# Step 1: Downloads
-Download the following programs into one folder:
+### Part 1: Downloads
+Download the following into one folder:
 * Canny_threshold_finder.py
 * Metasurface-Img-Processing_Version01.py 
-<br />
-Place all the images you would like to process into the same folder. 
+* All the images you would like to process
+
+/// INSERT SCREENSHOT HERE
+
+
+### Part 2: 
+You will use the Canny_threshold_finder.py program for this part. <br/>
+1) stuff
+```markdown
+/// PLACE THE CODE STUFF HERE
+```
+2) 
