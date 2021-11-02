@@ -3,6 +3,9 @@
 
 This mini-program will take in an SEM image and measure the dimensions of circular metaatoms. 
 It uses Canny edge detection, recursion, and loops to process each metaatom feature pixel by pixel. 
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-colorscale-c.PNG" width=50% height=50%> 
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-bar-graph-c.PNG" width=50% height=50%>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img3-diameter-roundness.PNG" width=50% height=50%> 
 
 ## Program Workflow 
 1) Given an original image, the program first uses Canny edge detection to find the edges
@@ -13,7 +16,7 @@ It uses Canny edge detection, recursion, and loops to process each metaatom feat
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-diameter-roundness.PNG" width=50% height=50%>
 <img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-colorscale.PNG" width=50% height=50%>
 4) The program will classify the metaatoms by size. Each size category will be represented visually by a single color. The number of metaatoms in each size category will be reflected in the bar graph.
-// INSERT IMAGE OF BAR GRAPH 
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-bar-graph.PNG" width=50% height=50%>
 
 ## How to use the program 
 
@@ -34,11 +37,11 @@ threshold=100
 ```
 2) Run the Canny_threshold_finder.py program. An image with the detected edges (in white) should appear. 
 * If the image produces clear circles, the threshold number you chose was optimal. 
-/// INSERT SCREENSHOT HERE
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-80-80.PNG" width=50% height=50%>
 * If the image has too much noise, increase the threshold number. 
-/// INSERT SCREENSHOT
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-0-0.PNG" width=50% height=50%>
 * If the circles are incomplete, decrease the threshold number. 
-/// SCREENSHOT 
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-150-150.PNG" width=50% height=50%>
 3) Continue changing the threshold and re-running the program until the program produces clear circles. 
 
 ### Part 3: Using the program 
