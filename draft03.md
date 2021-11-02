@@ -22,8 +22,8 @@ It uses Canny edge detection, recursion, and loops to process each metaatom feat
 
 ### Part 1: Downloads
 Download the following into one folder:
-* Canny_threshold_finder.py
-* Metasurface-Img-Processing_Version01.py 
+* [Canny_threshold_finder.py](https://github.com/yitianzhu/metasurface-sem-img/blob/main/Canny_threshold_finder.py)
+* [Metasurface-Img-Processing_Version01.py](https://github.com/yitianzhu/metasurface-sem-img/blob/main/Metasurface-IMG-Processing_Version01.py)
 * All the images you would like to process
 
 ### Part 2: Manually finding a threshold 
