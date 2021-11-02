@@ -26,6 +26,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/img3-colorscale-c.PNG" width=50% height=50%>
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
