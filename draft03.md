@@ -6,10 +6,12 @@ It uses Canny edge detection, recursion, and loops to process each metaatom feat
 
 ## Program Workflow 
 1) Given an original image, the program first uses Canny edge detection to find the edges
-//INSERT ORIGINAL PLUS CANNY
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/sample02jpg.jpg" width=50% height=50%>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-80-80.PNG" width=50% height=50%>
 2) The program then identifies individual metaatoms using the black and white edge image. 
 3) For each metaatom, the program will measure area, average diameter, roundness (where a perfect circle is 0), etc. This information will be displayed on an image, as shown below
-// INSERT IMAGE OF DIAMETER AND ROUNDNESS DATA
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-diameter-roundness.PNG" width=50% height=50%>
+<img src="https://github.com/yitianzhu/metasurface-sem-img/blob/gh-pages/images/img2-colorscale.PNG" width=50% height=50%>
 4) The program will classify the metaatoms by size. Each size category will be represented visually by a single color. The number of metaatoms in each size category will be reflected in the bar graph.
 // INSERT IMAGE OF BAR GRAPH 
 
